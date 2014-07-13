@@ -49,6 +49,7 @@
 		A9DC66101972CE020029BAEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9DC66121972CE020029BAEA /* HSCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCoreTests.m; sourceTree = "<group>"; };
 		A9DC661C1972CE2E0029BAEA /* HSBaseApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBaseApp.h; sourceTree = "<group>"; };
+		A9DC67041972E0480029BAEA /* HSRoutingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSRoutingDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				A9DC661C1972CE2E0029BAEA /* HSBaseApp.h */,
+				A9DC67041972E0480029BAEA /* HSRoutingDelegate.h */,
 				A9DC65F91972CE020029BAEA /* Supporting Files */,
 			);
 			path = HSCore;
@@ -399,6 +401,7 @@
 				A9DC66181972CE020029BAEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9DC66191972CE020029BAEA /* Build configuration list for PBXNativeTarget "HSCoreTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +410,7 @@
 				A9DC661B1972CE020029BAEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

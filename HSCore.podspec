@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.source_files = 'HSCore'
   s.resources = 'HSCore/*.{xib,storyboard,png}'
   s.requires_arc = true
+
+  s.dependency 'JLRoutes', '~> 1.5'
 end
