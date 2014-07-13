@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9DC65F71972CE020029BAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DC65F61972CE020029BAEA /* Foundation.framework */; };
+		A9DC66051972CE020029BAEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DC66041972CE020029BAEA /* XCTest.framework */; };
+		A9DC66061972CE020029BAEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DC65F61972CE020029BAEA /* Foundation.framework */; };
+		A9DC66081972CE020029BAEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DC66071972CE020029BAEA /* UIKit.framework */; };
+		A9DC660B1972CE020029BAEA /* libHSCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DC65F31972CE020029BAEA /* libHSCore.a */; };
+		A9DC66111972CE020029BAEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9DC660F1972CE020029BAEA /* InfoPlist.strings */; };
+		A9DC66131972CE020029BAEA /* HSCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DC66121972CE020029BAEA /* HSCoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9DC66091972CE020029BAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9DC65EB1972CE020029BAEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9DC65F21972CE020029BAEA;
+			remoteInfo = HSCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9DC65F11972CE020029BAEA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9DC65F31972CE020029BAEA /* libHSCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHSCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DC65F61972CE020029BAEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9DC65FA1972CE020029BAEA /* HSCore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSCore-Prefix.pch"; sourceTree = "<group>"; };
+		A9DC66031972CE020029BAEA /* HSCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DC66041972CE020029BAEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9DC66071972CE020029BAEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A9DC660E1972CE020029BAEA /* HSCoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HSCoreTests-Info.plist"; sourceTree = "<group>"; };
+		A9DC66101972CE020029BAEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9DC66121972CE020029BAEA /* HSCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSCoreTests.m; sourceTree = "<group>"; };
+		A9DC661C1972CE2E0029BAEA /* HSBaseApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSBaseApp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DC65F01972CE020029BAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DC65F71972CE020029BAEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DC66001972CE020029BAEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DC66051972CE020029BAEA /* XCTest.framework in Frameworks */,
+				A9DC660B1972CE020029BAEA /* libHSCore.a in Frameworks */,
+				A9DC66081972CE020029BAEA /* UIKit.framework in Frameworks */,
+				A9DC66061972CE020029BAEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9DC65EA1972CE020029BAEA = {
+			isa = PBXGroup;
+			children = (
+				A9DC65F81972CE020029BAEA /* HSCore */,
+				A9DC660C1972CE020029BAEA /* HSCoreTests */,
+				A9DC65F51972CE020029BAEA /* Frameworks */,
+				A9DC65F41972CE020029BAEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DC65F41972CE020029BAEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC65F31972CE020029BAEA /* libHSCore.a */,
+				A9DC66031972CE020029BAEA /* HSCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DC65F51972CE020029BAEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC65F61972CE020029BAEA /* Foundation.framework */,
+				A9DC66041972CE020029BAEA /* XCTest.framework */,
+				A9DC66071972CE020029BAEA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9DC65F81972CE020029BAEA /* HSCore */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC661C1972CE2E0029BAEA /* HSBaseApp.h */,
+				A9DC65F91972CE020029BAEA /* Supporting Files */,
+			);
+			path = HSCore;
+			sourceTree = "<group>";
+		};
+		A9DC65F91972CE020029BAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC65FA1972CE020029BAEA /* HSCore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9DC660C1972CE020029BAEA /* HSCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC66121972CE020029BAEA /* HSCoreTests.m */,
+				A9DC660D1972CE020029BAEA /* Supporting Files */,
+			);
+			path = HSCoreTests;
+			sourceTree = "<group>";
+		};
+		A9DC660D1972CE020029BAEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC660E1972CE020029BAEA /* HSCoreTests-Info.plist */,
+				A9DC660F1972CE020029BAEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DC65F21972CE020029BAEA /* HSCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DC66161972CE020029BAEA /* Build configuration list for PBXNativeTarget "HSCore" */;
+			buildPhases = (
+				A9DC65EF1972CE020029BAEA /* Sources */,
+				A9DC65F01972CE020029BAEA /* Frameworks */,
+				A9DC65F11972CE020029BAEA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSCore;
+			productName = HSCore;
+			productReference = A9DC65F31972CE020029BAEA /* libHSCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9DC66021972CE020029BAEA /* HSCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DC66191972CE020029BAEA /* Build configuration list for PBXNativeTarget "HSCoreTests" */;
+			buildPhases = (
+				A9DC65FF1972CE020029BAEA /* Sources */,
+				A9DC66001972CE020029BAEA /* Frameworks */,
+				A9DC66011972CE020029BAEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9DC660A1972CE020029BAEA /* PBXTargetDependency */,
+			);
+			name = HSCoreTests;
+			productName = HSCoreTests;
+			productReference = A9DC66031972CE020029BAEA /* HSCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DC65EB1972CE020029BAEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = HubSpot;
+			};
+			buildConfigurationList = A9DC65EE1972CE020029BAEA /* Build configuration list for PBXProject "HSCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9DC65EA1972CE020029BAEA;
+			productRefGroup = A9DC65F41972CE020029BAEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DC65F21972CE020029BAEA /* HSCore */,
+				A9DC66021972CE020029BAEA /* HSCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DC66011972CE020029BAEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DC66111972CE020029BAEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DC65EF1972CE020029BAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DC65FF1972CE020029BAEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DC66131972CE020029BAEA /* HSCoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9DC660A1972CE020029BAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9DC65F21972CE020029BAEA /* HSCore */;
+			targetProxy = A9DC66091972CE020029BAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9DC660F1972CE020029BAEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DC66101972CE020029BAEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9DC66141972CE020029BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9DC66151972CE020029BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DC66171972CE020029BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HSCore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCore/HSCore-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A9DC66181972CE020029BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/HSCore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCore/HSCore-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A9DC661A1972CE020029BAEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCore/HSCore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HSCoreTests/HSCoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A9DC661B1972CE020029BAEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HSCore/HSCore-Prefix.pch";
+				INFOPLIST_FILE = "HSCoreTests/HSCoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DC65EE1972CE020029BAEA /* Build configuration list for PBXProject "HSCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DC66141972CE020029BAEA /* Debug */,
+				A9DC66151972CE020029BAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DC66161972CE020029BAEA /* Build configuration list for PBXNativeTarget "HSCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DC66171972CE020029BAEA /* Debug */,
+				A9DC66181972CE020029BAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9DC66191972CE020029BAEA /* Build configuration list for PBXNativeTarget "HSCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DC661A1972CE020029BAEA /* Debug */,
+				A9DC661B1972CE020029BAEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9DC65EB1972CE020029BAEA /* Project object */;
+}
