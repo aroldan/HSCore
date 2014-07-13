@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "git@github.com:aroldan/HSCore.git", :tag => "0.0.1" }
   s.ios.deployment_target = '6.0'
   s.source_files = 'HSCore'
-  s.resources = 'HSCore/*.{xib,storyboard,png}'
   s.requires_arc = true
 
   s.dependency 'JLRoutes', '~> 1.5'
