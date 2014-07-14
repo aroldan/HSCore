@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @protocol HSRoutingDelegate <NSObject>
 
 - (void)shouldPushViewController:(UIViewController *)controller;
 
 @end
+
+typedef BOOL(^HSRoutingActionBlock)(id<HSRoutingDelegate> routingDelegate, NSString *url, NSDictionary *parameters);
